@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-pcsc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "java:dev": "cross-env NODE_ENV=java_dev_production nuxt",
+    "php:dev": "cross-env NODE_ENV=php_dev_production nuxt",
+    "java:ps": "cross-env NODE_ENV=java_prod_production nuxt start",
+    "java:psgjh": "cross-env NODE_ENV=java_prod_production_gjh nuxt start",
+    "java:psinter": "cross-env NODE_ENV=java_prod_production_inter nuxt start",
+    "java:ts": "cross-env NODE_ENV=java_test_production nuxt start",
+    "php:ps": "cross-env NODE_ENV=php_prod_production nuxt start",
+    "php:ts": "cross-env NODE_ENV=php_test_production nuxt start",
+    "java:test": "cross-env NODE_ENV=java_test_production nuxt build",
+    "java:prod": "cross-env NODE_ENV=java_prod_production nuxt build",
+    "java:prodgjh": "cross-env NODE_ENV=java_prod_production_gjh nuxt build",
+    "java:inter": "cross-env NODE_ENV=java_prod_production_inter nuxt build",
+    "java:demo": "nuxt build",
+    "java:psdemo": "nuxt start",
+    "php:test": "cross-env NODE_ENV=php_test_production nuxt build",
+    "php:prod": "cross-env NODE_ENV=php_prod_production nuxt build",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/i18n": "^7.3.1",
+    "cookie-universal-nuxt": "^2.2.2",
+    "core-js": "^3.25.3",
+    "element-ui": "^2.15.10",
+    "nuxt": "^2.15.8",
+    "nuxt-storage": "^1.2.2",
+    "process": "^0.11.10",
+    "qrcode": "^1.5.4",
+    "qrcode-generator": "^1.4.4",
+    "tesseract.js": "^5.1.1",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/proxy": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "sass": "^1.49.9",
+    "sass-loader": "10.1.1"
+  }
+}

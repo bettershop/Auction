@@ -1,0 +1,23 @@
+#app{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.el-breadcrumb{
+	padding: 20px 0;
+}
+
+.cardBox{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card{
+	width: 220px;
+	height: 268px;
+	margin-bottom: 25px;
+}
+
+.cardBox .card:not(:nth-of-type(5)){
+	margin-right: 22px;
+}

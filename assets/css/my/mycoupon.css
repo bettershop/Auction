@@ -1,0 +1,171 @@
+.my-title:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.my-title>p{
+	float: left;
+}
+
+.my-title>div{
+	float: right;
+	margin-right: 20px;
+	color: #D4282D;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.my-title>div i{
+	font-weight: bolder;
+}
+
+.tabBox{
+	display: flex;
+	align-items: center;
+	padding: 30px 20px 0;
+}
+
+.tabBox>li{
+	margin-right: 40px;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+	padding-bottom: 3px;
+	border-bottom: 2px solid transparent;
+}
+
+.tabBox .active{
+	color: #D4282D;
+	border-bottom-color: #D4282D;
+}
+
+.no_good{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 98px;
+}
+
+.no_good>p{
+	font-size: 16px;
+	line-height: 16px;
+	color: #888888;
+	margin-top: 20px;
+}
+
+::v-deep .no_good .el-button{
+	border-radius: 0;
+	/* width:112px; */
+	height:40px;
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+.couponlist{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.couponlist>div{
+	position: relative;
+	width: 475px;
+	height: 159px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.couponlist .couponlist_left{
+	position: absolute;
+	left: 0;top: 0;
+	bottom: 0;
+	width: 132px;
+	padding: 45px 0 45px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.couponlist .couponlist_left>div{
+	color: #D4282D;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.couponlist .couponlist_left>div span{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.couponlist .couponlist_left>span{
+	font-size: 14px;
+	line-height: 14px;
+	color: #D4282D;
+	margin-top: 26px;
+}
+
+.couponlist .couponlist_right{
+	position: absolute;
+	right: 0;top: 0;
+	bottom: 0;
+	width: 272px;
+	padding: 45px 35px 37px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.couponlist .couponlist_right>p{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #020202;
+}
+
+.couponlist .couponlist_right>div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 7px;
+	width: 100%;
+}
+
+.couponlist .couponlist_right>div span{
+	color: #999999;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.couponlist .couponlist_right>div div{
+	width:80px;
+	height:30px;
+	border:1px solid rgba(212,40,45,1);
+	border-radius:15px;
+	cursor: pointer;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	color: #D4282D;
+}
+
+.huiA .couponlist_left div,.huiA .couponlist_left span{
+	color: #B8B8B8!important;
+}
+
+.couponStatus{
+	position: absolute;
+	right: 15px;
+	top: 13px;
+	display: none;
+}
+
+.huiA .couponStatus{
+	display: block;
+}

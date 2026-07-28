@@ -1,0 +1,382 @@
+#app{
+	background-color: #F8F8F8;
+}
+::v-deep .el-tabs__header{
+	background-color: #FFFFFF;
+	margin-bottom: 0 !important;
+}
+.new-shouc{
+	background-color: #FFFFFF;
+	margin-bottom: 16px;
+}
+::v-deep .el-tabs__nav-wrap::after {
+	height: 1px;
+}
+
+::v-deep .el-tabs__item {
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+}
+
+::v-deep .el-tabs__active-bar {
+	width: 64px !important;
+}
+
+::v-deep .el-tabs__nav-scroll {
+	padding: 0 20px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	position: relative;
+}
+.list:nth-child(4n){
+	margin-right: 0 !important;
+}
+
+.list .goods-image {
+	width: 228px;
+	height: 228px;
+}
+
+.list-right {
+	width: 228px;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.list-right-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pointer{
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 显示的行数 */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	max-width: 204px; /* 设置最大宽度以限制文本的显示长度 */
+}
+.infoMask{
+	display: flex;align-items: center;justify-content: center;
+	position: fixed;
+	top: 0;left: 0;right: 0;bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 666;
+}
+.infoMask>div{
+	width:420px;
+	background:rgba(255,255,255,1);
+	display: flex;flex-direction: column;align-items: center;
+	padding: 36px 0;
+}
+.infoText{
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+	margin-top: 16px;
+}
+.infoText p{
+	color: #999999;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 10px;
+}
+.infoMask .btnBox{
+	margin-top: 24px;
+}
+.infoMask .el-button{
+	width: 112px;height: 36px;
+	border-radius: 0;
+}
+.infoMask .el-button--danger{
+	background-color: #D4282D;
+}
+.list-right-top>p {
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+}
+
+.list-right-top>p:hover {
+	color: #D4282D;
+	text-decoration: underline;
+}
+
+.list-right-top>i {
+	font-size: 14px;
+	color: #B8B8B8;
+	line-height: 14px;
+}
+
+.list-mchName {
+	font-size: 14px;
+	line-height: 14px;
+	color: #888888;
+	margin-top: 16px;
+}
+
+.list-price {
+	color: #D4282D;
+	font-weight: bold;
+	line-height: 14px;
+	line-height: 12px;
+	margin-top: 16px;
+}
+
+.list-price>span {
+	font-weight: 300;
+	color: #999999;
+	text-decoration: line-through;
+}
+
+::v-deep .list-right .el-button,
+::v-deep .mchlist .el-button {
+	width: 80px;
+	height: 30px;
+	line-height: 0;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 0;
+	background-color: transparent;
+	color: #666666;
+	border-color: #DDDDDD;
+	margin-top: 46px;
+}
+
+.mchlist {
+	display: flex;
+	margin: 20px 0;
+	border: 1px solid #EEEEEE;
+	position: relative;
+}
+
+.mchlist-left {
+	width: 244px;
+	padding: 30px 0 0 0;
+	box-sizing: border-box;
+	border-right: 1px solid #EEEEEE;
+	position: relative;
+}
+
+.mchlist-left-top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 54px;
+}
+
+.mchlist-left-top .text{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.mchlist-left-top .mch_logo {
+	width: 60px;
+	height: 60px;
+}
+
+.mchlist-left-top>div p {
+	color: #020202;
+	font-size: 16px;
+	line-height: 16px;
+	width: 125px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-top: 10px;
+}
+
+.mchlist-left-top>div span {
+	display: block;
+	color: #888888;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 10px;
+}
+
+.mchlist-left-btn{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+::v-deep .mchlist .el-button {
+	flex: 1;
+	margin-top: 0;
+	margin-left: 0;
+	height: 40px;
+}
+
+.delete-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 28px;
+	height: 28px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.delete-icon>i {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.mchlist:hover .delete-icon {
+	display: flex;
+}
+
+.mchlist-right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.shijianbugou{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.shijianbugou .btn1{
+	display: flex;
+	align-items: center;
+}
+.shijianbugou .btn1 >div{
+	padding: 7px 18px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #020202;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #EEEEEE;
+	cursor: pointer;
+}
+.shijianbugou .btn1 >div:hover{
+	color: #D4282D;
+}
+.shijianbugou .btn2{
+	display: flex;
+	align-items: center;
+}
+.btn2-1{
+	font-size: 14px;
+	color: #020202;
+}
+.btn2-2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 30px;
+}
+.btn2-2 >div{
+	display: flex;
+	padding: 8px 28px;
+	box-sizing: border-box;
+	border: 1px solid #EEEEEE;
+	cursor: pointer;
+}
+.btn2-2 >div:hover{
+	background: #EEEEEE;
+}
+.btn2-2 img{
+	width: 9px;
+	height: 16px;
+}
+.suibianxie{
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+}
+
+.mchlist-right .mchlist-right-item:not(:last-child) {
+	margin-right: 54px;
+}
+
+.mchlist-right .mchlist-right-item {
+	cursor: pointer;
+}
+
+.mchlist-right-item img {
+	width: 80px;
+	height: 80px;
+}
+
+.mchlist-right-item p {
+	font-size: 13px;
+	color: #020202;
+	line-height: 10px;
+	text-align: center;
+	margin-top: 9px;
+}
+
+.xiajia {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	color: #FFFFFF;
+}
+.quxiaoSc{
+	width: 100%;
+	padding: 5px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.cao-zuo{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
+.cao-zuo>div{
+	display: flex;
+}
+.cao-zuo>div>img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.noOrder{
+	flex: 1;
+}

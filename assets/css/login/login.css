@@ -1,0 +1,229 @@
+/***********
+ * 名称：登录页的css
+ */
+ [v-cloak]{
+	display: none!important;
+}
+.inside{width: 1000px;margin: 0 auto;}
+ /* 登录头部 start */
+.header{
+	background: #ffffff;
+	/* background: pink; */
+ 	height: 80px;
+ }
+.header .inside{
+	 height: 80px;
+	 display: flex;
+	 justify-content: space-between;
+ }
+ input:not([type="image" i]) {
+    box-sizing: border-box;
+}
+/* input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+} */
+input::placeholder {
+    color: #999;
+    font-size: 16px;
+}
+.header .inside .logo{
+	width: 174px;
+	height: 51px;
+	margin-top: 15px;
+}
+.header .inside div{text-align: center}
+.header .inside .icon{
+	height: 17px;
+	line-height: 17px;
+	display: flex;
+	margin: auto 0;
+	color: #666666;
+	font-size: 16px;
+}
+.header .inside .icon a:link,
+.header .inside .icon a:visited{color: #666666;}
+.header .inside .icon img{
+	width: 16px;
+	height: 16px;
+}
+.header .el-divider--vertical{margin: 0 14px;}
+/* 登录头部 end */
+/* 登录背景和登录框 start */
+.main .inside{
+	position: relative;
+	height: 100%;
+}
+.login-box{
+	width:400px;
+	height:545px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 26px 0px rgba(81,84,92,0.16);
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.login-box .d1{
+	width: 286px;
+	height: 22px;
+	margin: 50px auto 0 auto;
+	text-align: center;
+	font-size: 20px;
+	color: #999999;
+	cursor: pointer;
+}
+.login-box .d1 i:last-child{
+	display: none;
+}
+.login-box .active{
+	font-weight: bold;
+	color: #27282E;
+}
+.login-box .d2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+.login-box .d2 .ipt1, .ipt2, .button{
+	width: 320px;
+	height: 50px;
+	border: 1px solid rgba(221,221,221,1);
+	padding-left: 10px;
+	margin-top: 20px;
+}
+.login-box .d2 .ipt2{
+	width: 180px;
+	margin-right: 16px;
+}
+.login-box .d2 .codeImg{
+	width:118px;
+	height:46px;
+	border:1px solid rgba(238,238,238,1);
+	margin-top: 20px;
+}
+
+.codeImgGQ{
+  width:118px;
+  height:46px;
+  background-color: rgba(0,0,0,.3);
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: #999;
+	font-size: 16px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #999;
+	font-size: 16px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: #999;
+	font-size: 16px;
+}
+.login-box .d2 .button{
+	background: #D4282D;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 40px;
+	padding: 0;
+  border: initial;
+}
+.login-box .d2_1{
+	display: flex;align-items: center;
+	width: 320px;
+	color: #999999;
+	font-size: 14px;
+	margin: 18px 0 50px 0;
+}
+::v-deep.login-box .d2_1 .el-checkbox{
+	display: inline-flex;
+}
+::v-deep .login-box .d2_1 .el-checkbox__label{
+	line-height: 14px;
+	color: #999999!important;
+}
+.login-box .d2_1 a{
+	display: inline-block;
+	line-height: 14px;
+	margin-top: -2px;
+	margin-left: auto;
+}
+.login-box .d2_1 a:link,
+.login-box .d2_1 a:visited{color: #999999;}
+.login-box .d2_2{
+	width:400px;
+	height:61px;
+	line-height: 61px;
+	background:rgba(248,248,248,1);
+	font-size: 16px;
+	color: #999999;
+	text-align: center;
+}
+.login-box .d2_2 a:link,
+.login-box .d2_2 a:visited{
+	color: #D4282D;
+	text-decoration: underline;
+}
+/* 登录尾部start */
+.footer{
+	background: #ffffff;
+	/* background: pink; */
+	height: 88px;
+}
+.footer .inside{
+	height: 88px;
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	justify-content: center;
+}
+.footer .inside .d1{
+	color: #666666;
+	margin: 0 auto 14px auto;
+	margin-bottom: 14px;
+}
+.footer .inside .d1 a:link,
+.footer .inside .d1 a:visited{color: #666666;}
+.footer .inside .d1 i{
+	width: 1px;
+	margin: 0 3px;
+}
+.footer .inside .d2{
+	color: #888888;
+	display: flex;
+	justify-content: center;
+}
+.footer .inside .d2 a:link,
+.footer .inside .d2 a:visited{color: #888888;}
+
+#app{
+	display: flex;flex-direction: column;
+	height: 100%;
+}
+#app .main{
+	flex: 1;
+}
+
+.codeBtn{
+	width: 120px;
+	height: 50px;
+	background: rgba(184,184,184,1);
+	border: 0;
+	color: #ffffff;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}

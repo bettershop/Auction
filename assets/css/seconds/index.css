@@ -1,0 +1,301 @@
+#container{
+	background: #F6F6F6;
+}
+.SecondsTop{
+	height: 86px;
+	background: #F3DFC4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SecondsTop .SecondsTop_Left{
+	display: flex;
+	align-items: center;
+	
+}
+.SecondsTop .SecondsTop_Left .SecondsTop_Left_icon{
+	width: 36px;
+	height: 36px;
+}
+.SecondsTop .SecondsTop_Left .SecondsTop_Left_icon2{
+	width: 152px;
+	height: 33px;
+	margin-top: -10px;
+	margin-left: 13px;
+}
+.SecondsTop .SecondsTop_Right{
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+}
+.SecondsTop .SecondsTop_Right h2{
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #333333;
+	padding-right: 14px;
+}
+.SecondsTop .SecondsTop_Right .Hour,.SecondsTop .SecondsTop_Right .Min,.SecondsTop .SecondsTop_Right .Second{
+	display: flex;
+	align-items: center;
+}
+.SecondsTop .SecondsTop_Right .Hour span,.SecondsTop .SecondsTop_Right .Min span,.SecondsTop .SecondsTop_Right .Second span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	background: #333333;
+	border-radius: 2px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.SecondsTop .SecondsTop_Right .Hour span:nth-child(1),.SecondsTop .SecondsTop_Right .Min span:nth-child(1),.SecondsTop .SecondsTop_Right .Second span:nth-child(1){
+	margin-right: 8px;
+}
+.SecondsTop .SecondsTop_Right .Interval{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #333333;
+	padding: 0 8px;
+}
+.List{
+	width: 1200px;
+    margin: auto;
+	min-height: 555px;
+}
+.List .List_ul{
+	margin: 30px 0 21px 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	overflow-x: auto;
+}
+/* .List .List_ul::-webkit-scrollbar {
+	display: none; 
+} */
+.List .List_ul li{
+	background: #FFFFFF;
+	width: 200px;
+	height: 69px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border-right: 1px solid #E6E6E6;
+	cursor: pointer;
+	flex: none;
+}
+.List .List_ul .active{
+	background: #D4282D;
+	
+}
+.List .List_ul .active h2{
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: bold;
+}
+.List .List_ul .active span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.List .List_ul li h2{
+	font-size: 22px;
+	font-weight: 400;
+	color: #020202;
+}
+.List .List_ul li span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #020202;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ListRight{
+	display: flex;
+	align-items: center;
+	width: 590px;
+	height: 300px;
+	background: #FFFFFF;
+	margin-bottom: 20px;
+}
+.ListRight .ListRight_Left{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ListRight .ListRight_Left img{
+	width: 246px;
+	height: 253px;
+	margin: 17px 26px;
+}
+.ListRight .ListRight_Left div{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #FFFFFF;
+	width: 120px;
+	height: 120px;
+	background: rgba(0, 0, 0, .6);
+	border-radius: 50%;
+}
+.ListRight .ListRight_Left .ListRight_Item{
+	
+}
+
+
+.ListRight_Item{
+	flex: 0 0 50%;
+	height: 100%;
+	display: flex;
+	padding: 0 29px 0 15px;
+	box-sizing: border-box;
+	background: white;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex: 1;
+	flex-direction: column;
+	padding: 17px 0;
+}
+.ListRight_Item .right-shop{
+	width: 160px;
+	height: 150px;
+}
+/* .ListRight_Item {
+	padding: 17px 0;
+	height: 100%;
+} */
+.ListRight_Item  p{
+	width: 247px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #020202;
+	/* height: 16px;
+	line-height: 16px; */
+	padding-top: 4px;
+}
+.ListRight_Item  .right-mch{
+	display: flex;
+	align-items: center;
+	padding-top: 13px;
+	height: 20px;
+	line-height: 20px;
+}
+.ListRight_Item  .right-mch img{
+	width: 20px;
+	height: 20px;
+}
+.ListRight_Item  .right-mch span{
+	padding-left: 7px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+}
+
+.ListRight_Item .right-price{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	padding-top: 44px;
+	/* height: 20px;
+	line-height: 20px; */
+}
+.ListRight_Item .right-price label{
+	color: #D4282D;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ListRight_Item .right-price font{
+	font-weight: bold;
+	font-size: 24px;
+	color: #D4282D;
+}
+.ListRight_Item .right-price del{
+	color: #888888;
+	font-size: 14px;
+	font-weight: 400;
+}
+.ListRight_Item button{
+	outline: 0;
+	border: 0;
+	width: 180px;
+	height: 32px;
+	background: #D4282D;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-top: 29px;
+	cursor: pointer;
+}
+
+.ListRight_Item .right_success{
+	width: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+}
+.ListRight_Item .Status_change{
+	background: #B8B8B8;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.ListRight_Item .right_success span{
+	font-size: 12px;
+	font-weight: 400;
+	color: #999999;
+}
+.ListRight_Item .right_success font{
+	color: #D4282D;
+	font-size: 12px;
+}
+.No_data{
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+}
+.Pagination{
+	text-align: center;
+}
+.el-dialog{
+	margin-top: 0!important;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.modal{
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.modal h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 20px;
+}
+.modal p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #666666;
+	padding-top: 9px;
+}
+#output{
+	width: 146px;
+	height: 146px;
+}

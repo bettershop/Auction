@@ -1,0 +1,260 @@
+#app{
+	background-color: #FFFFFF;
+	min-height: 100%;
+}
+
+.evaluation_title {
+    padding: 22px 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #020202;
+    font-weight: bold;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+::v-deep .el-collapse-item__arrow{
+	display: none;
+}
+
+.evaluation_content{
+	padding: 20px;
+}
+
+.evaluation_content>div{
+	border: 1px solid #E6E6E6;
+}
+
+.evaluation_content_top{
+	display: flex;
+	align-items: center;
+	background-color: #F6F6F6;
+}
+
+.evaluation_content_top>li{
+	line-height: 44px;
+	font-size: 14px;
+	color: #999999;
+}
+
+.evaluation_content_top>li:first-child{
+	padding: 0 131px;
+}
+
+.evaluation_content_top>li:last-child,.pro_evaluation{
+	width: 168px;
+	text-align: center;
+	margin-left: auto;
+}
+
+.pro_evaluation{
+	font-size: 14px;
+	color: #4184E8;
+}
+
+::v-deep .el-collapse-item__header{
+	height: 80px;
+	padding: 20px 0;
+}
+
+.pro_infor{
+	display: flex;
+	padding: 0 20px;
+}
+
+.pro_infor>img{
+	width: 80px;
+	height: 80px;
+	margin-right: 12px;
+}
+.pro_infor>div{
+	display: flex;
+	flex-direction: column;
+}
+
+.pro_infor>div p{
+	width: 340px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #020202;
+	margin-bottom: 14px;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.pro_infor>div span{
+	font-size: 12px;
+	line-height: 12px;
+	color: #999999;
+}
+
+
+::v-deep .el-collapse-item__content{
+	position: relative;
+	padding: 0 20px;
+	background-color: #F6F6F6;
+	font-size: 14px;
+}
+
+::v-deep .el-collapse-item__wrap{
+	overflow: visible;
+}
+
+::v-deep .el-collapse-item__content::before{
+	content: '';
+	position: absolute;
+	right: 73px;
+	top: -15px;
+	z-index: 10;
+	width: 0;height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 15px solid #F6F6F6;
+}
+
+.pro_evaluation_content{
+	display: flex;
+	line-height: 36px;
+	color: #666666;
+	padding-top: 20px;
+}
+
+::v-deep .el-icon-star-off:before{
+	content: "\e797";
+}
+
+::v-deep .el-rate__icon{
+	margin-right: 0;
+	font-size: 20px;
+}
+
+::v-deep .el-textarea{
+	width: 420px;
+	height: 72px;
+}
+::v-deep .el-textarea__inner{
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+	padding: 10px;
+}
+
+.pro_evaluation_content_left{
+	width: 86px;
+}
+
+.upImage{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:140px;
+	height:36px;
+	border:1px solid rgba(212,40,45,1);
+	box-sizing: border-box;
+}
+
+.upImage img{
+	width:20px;
+	height:16px;
+	margin-right: 8px;
+}
+
+.upImage{
+	position: relative;
+	font-size: 14px;
+	color: #D4282D;
+	margin-right: 14px;
+	overflow: hidden;
+}
+
+.upImage .uploader-file{
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	padding: 140px;
+}
+
+.upImageBox{
+	position: relative;display: flex;
+  display: flex;
+}
+.upImageBox img{
+  width: 40px;height: 40px;background-color: #CCCCCC;
+  margin-right: 8px;
+}
+.upImageBox .el-image{
+  width: 40px;height: 40px;background-color: #CCCCCC;
+  margin-right: 8px;
+}
+
+
+.upImageBox>a{
+	position: absolute;
+	left: 0;right: 0;bottom: 0;top: 0;
+	align-items: center;justify-content: center;
+	background-color: rgba(0,0,0,0.6);
+	color: #FFFFFF;
+	font-size: 12px;
+	display: none;
+}
+
+.upImageBox:hover a{
+	display: flex;
+}
+
+.pro_evaluation_btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	padding: 20px 0;
+	border-top: 1px solid #E6E6E6;
+}
+.pro_evaluation_btn>div{
+	width:130px;
+	height:40px;
+	background:rgba(212,40,45,1);
+}
+
+::v-deep .el-button--danger{
+	width:130px;
+	height:40px;
+	border-radius: 0;
+	background-color: #D4282D;
+}
+
+.maskSuccess{
+	position: relative;
+	width:420px;
+	height:180px;
+	background:rgba(255,255,255,1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.maskSuccess>i{
+	position: absolute;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #999999;
+	top: 10px;
+	right: 10px;
+}
+
+.maskSuccess>p{
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 14px;
+}
+
+.maskSuccess>span{
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 10px;
+	color: #999999;
+}

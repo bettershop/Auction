@@ -1,0 +1,124 @@
+#app{
+	background-color: #FFFFFF;
+}
+
+.afterSale_title{
+	padding: 22px 20px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+	font-weight: bold;
+	border-bottom: 1px solid #E6E6E6;
+}
+.afterSale_card_title{
+	padding: 20px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+}
+
+.afterPro{
+	width: 920px;
+	margin-left: 20px;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 10px;
+}
+.afterPro th{
+	background-color: #F6F6F6;
+	height: 44px;
+	line-height: 44px;
+	color: #999999;
+}
+.afterPro td{
+	text-align: center;
+}
+
+.afterPro tr th:first-child{
+	width: 54px;
+}
+
+.quanxuan{
+	position: absolute;left: 21px;top: 0;
+}
+
+.afterPro tbody tr:not(:last-child) td{
+	border-bottom: 1px solid #EEEEEE;
+}
+
+
+.afterPro td{
+	height: 120px;
+}
+
+.afterProDiv{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+.afterProDiv>img{
+	width: 80px;height: 80px;
+	margin-right: 12px;
+}
+.afterProDiv>div p{
+	font-size: 14px;
+	line-height: 16px;
+	max-width: 330px;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.afterProDiv>div span{
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	color: #999999;
+	margin-top: 12px;
+}
+
+.afterPro th,.afterPro td{
+	font-size: 14px;
+}
+
+.afterOperation{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px;
+	padding-bottom: 124px;
+}
+
+.afterOperation>div{
+	display: flex;
+	align-items: center;
+	width:440px;
+	height:107px;
+	background:rgba(255,255,255,1);
+	border:1px solid rgba(230,230,230,1);
+	box-sizing: border-box;
+	padding: 0 30px;
+	cursor: pointer;
+}
+.afterOperation>div:first-child{
+	margin: 0 40px 40px 0;
+}
+
+.afterOperation>div img{
+	margin-right: 28px;
+}
+.afterOperation>div p{
+	font-size: 20px;
+	line-height: 20px;
+	color: #020202;
+	margin-bottom: 14px;
+}
+.afterOperation>div span{
+	display: block;
+	font-size: 16px;
+	line-height: 16px;
+	color: #999999;
+}

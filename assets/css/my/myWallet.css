@@ -1,0 +1,109 @@
+#app{
+	display: flex;
+	flex-direction: column;
+}
+
+#app:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.my-Wallet{
+	margin: 20px;
+	height:240px;
+	background:linear-gradient(45deg,rgba(255,248,247,1) 0%,rgba(255,243,243,1) 100%);
+	opacity:0.9;
+	position: relative;
+}
+
+.my-Wallet>img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.my-Wallet>p,.my-Wallet>span,.my-Wallet>div{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.my-Wallet>p{
+	color: #020202;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 38px;
+	padding-top: 50px;
+}
+
+.my-Wallet>span{
+	color: #333333;
+	font-size: 16px;
+	line-height: 16px;
+	padding-top: 25px;
+}
+
+.my-Wallet>div{
+	width: auto;
+	margin-left: 50%;
+	padding-top: 30px;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+
+.my-Wallet>div .el-button{
+	float: left;
+	width:130px;
+	height:40px;
+	text-align: center;
+	border-radius: 0;
+}
+
+.el-button--danger.is-plain{
+	background-color: transparent;
+	border-color:#D4282D
+}
+
+.headings{
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+	padding: 12px 20px 20px;
+}
+
+.thead{
+	width: 33.33%;
+	background-color: #F6F6F6!important;
+	color: #999999!important;
+	height: 44px!important;
+	padding: 0!important;
+}
+
+.el-table th{
+	background-color: #F6F6F6!important;
+}
+
+.el-table th,.el-table td{
+	text-align: center!important;
+	font-size: 14px;
+}
+.el-table th.el-table__cell{
+	background-color: #F6F6F6!important;
+
+}
+
+::v-deep .el-table td,.el-table td div{
+	white-space: nowrap!important;
+}
+
+.tableBox{
+	margin: 0 20px;
+}
+
+.el-pagination{
+	padding-right: 15px;
+}

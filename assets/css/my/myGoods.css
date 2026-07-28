@@ -1,0 +1,214 @@
+body{
+    background-color: #F8F8F8;
+}
+.container{
+    overflow: hidden;
+    width: 1000px;
+    margin: 20px auto 0 auto;
+}
+.left{
+    float: left;
+    width: 220px;
+    height: 902px;
+    background-color: #FFFFFF;
+}
+.right{
+    float: right;
+    width: 760px;
+    height: 917px;
+    margin-left: 20px;
+
+}
+.left ul li{
+    height: 50px;
+    border-bottom: 1px solid #F8F8F8;
+    font-size: 16px;
+    color: #020202;
+    line-height: 50px;
+    text-align: center;
+    background-image: url('../../../static/images/login_home.png');
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: 30px center;
+}
+.user{
+    overflow: hidden;
+    height: 196px;
+    background-color: #fff;
+}
+.user .logo{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    width: 300px;
+    height: 100%;
+
+}
+.user .user-item{
+    overflow: hidden;
+    float: left;
+    width: 460px;
+    height: 100%;
+
+}
+.logo .touxiang{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #3a8ee6;
+}
+.logo .wenzi{
+    width: 184px;
+
+}
+.logo .wenzi p{
+    color: #999999;
+    font-size: 14px;
+}
+
+.user-item ul li{
+    overflow: hidden;
+    float: left;
+    width: 150px;
+    height: 100px;
+
+    text-algin: center;
+}
+.user-item ul li h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.user-item ul li span{
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+.r-main{
+    position: relative;
+    height: 685px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+.order-part{
+    height: 525px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #ffffff;
+}
+.order-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+.order-title p{
+    color: #020202;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.order-title span{
+    width:84px;
+    height:12px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(212,40,45,1);
+    vertical-align: middle;
+}
+.order-title img{
+    width: 7px;
+    height: 12px;
+    background: #D4282D;
+    vertical-align: middle;
+    margin: 0 16px 0 4px;
+}
+.order-icons{
+    height: 120px;
+}
+.order-icons .order-icon{
+    display: inline-block;
+    text-align: center;
+    padding: 22px 0 15px 0;
+    width: 92px;
+    /* height: 100px; */
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.order-icons img{
+    width: 44px;
+    height: 38px;
+    background: #E6E6E6;
+}
+.order-icons p{
+    color: #020202;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.order-icon:hover{
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+}
+.order-info{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #EEEEEE;
+}
+.order-info img{
+    width: 73px;
+    height: 73px;
+    border: 1px solid #EEEEEE;
+}
+.order-info .d1{margin-left: 13px;}
+.order-info .d2{
+    position: absolute;
+    right: 23px;
+}
+.order-info p{
+    color: #020202;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.order-info span{
+    font-size: 12px;
+    margin-top: 14px;
+}
+.order-info .sp1{color: #D4282D;}
+.order-info .sp2{color: #999999;}
+.order-info .sp3{color: #666666;}
+
+
+
+
+.laike{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+.laike-main{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+    font-size: 24px;
+    color: #020202;
+}
+.laike-main img{
+    display: block;
+    width: 149px;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #DDDDDD;
+}

@@ -1,0 +1,189 @@
+
+.container {
+	width: 100%;
+}
+
+.condition {
+	width: 1200px;
+	margin: auto;
+}
+
+.huiyuan{
+	width: 1200px;
+	margin: 19px auto 0 auto;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+.huiyuan ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.huiyuan ul li {
+	width: 288px;
+	height: 370px;
+	margin-bottom: 20px;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.huiyuan ul li:not(:nth-of-type(4n+4)){
+	margin-right: 16px;
+}
+.huiyuan ul li .box {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+.huiyuan ul li .vip {
+	display: block;
+	width: 286px;
+	height: 217px;
+	background-color: #FFFFFF;
+	/* margin-top: 20px; */
+}
+.price{
+	padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.wenzi{
+    font-size: 14px;
+    color: #D4282D;
+    font-weight: bold;
+    line-height: 18px;
+}
+.two{
+	font-size: 16px;
+	color:#999999;
+	text-decoration: line-through;
+	margin-left: 11px;
+}
+ .stores {
+	background: rgb(45, 45, 45);
+    color: rgb(228, 194, 112);
+    width: 64px;
+    height: 24px;
+    font-size: 13px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 10px;
+	margin-right: 190px;
+	margin-bottom: 20px;
+}
+.huiyuan ul li:hover{
+	box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+	background-color: #eeeeee;
+}
+.my-main {
+	width: 1200px;
+	margin: 19px auto 0 auto;
+	box-sizing: border-box;
+	min-height: 770px;
+}
+
+.my-main ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.my-main ul li {
+	width: 288px;
+	height: 365px;
+	margin-bottom: 20px;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.my-main ul li:not(:nth-of-type(4n+4)){
+	margin-right: 16px;
+}
+
+.my-main ul li img {
+	display: block;
+	width: 286px;
+	height: 286px;
+	/* background-color: rgba(0,0,0,0.8); */
+}
+
+
+.my-main ul li p {
+	color: #020202;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	max-width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 20px auto 0;
+}
+
+.my-main ul li span {
+	display: block;
+	font-size: 14px;line-height: 14px;
+	color: #D4282D;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.main-fenye {
+	display: block;
+	width: 300px;
+	margin: auto;
+}
+
+.pageBox{
+	display: flex;align-items: center;
+	margin-left: auto;
+}
+.pageBox>div{
+	font-size: 14px;
+	color: #020202;
+	margin: 0 10px;
+}
+.pageBox div span{
+	color: #D4282D;
+}
+.pageBox img{
+	width: 7px;height: 14px;
+	cursor: pointer;
+}
+
+.red{
+	color: #D4282D!important;
+}
+
+.disabled{
+	cursor: not-allowed!important;
+}
+
+.priceSort{
+	position: relative;
+	width: 40px;
+}
+
+.priceSort i{
+	position: absolute;
+	color: #999999;
+}
+
+.priceSort .el-icon-caret-bottom{
+	bottom: -1px;
+}
+
+.xuanxiang .el-button:hover,.xuanxiang .el-button:focus{
+	background-color: transparent;
+	border-color: #D4282D;
+}
+
+.my-main ul li:hover{
+	box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+	background-color: #eeeeee;
+}

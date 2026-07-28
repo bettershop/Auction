@@ -1,0 +1,75 @@
+.cj-main{
+    width: 100%;
+    margin-top: 20px;
+}
+.cj-main-container{
+    width: 1000px;
+    margin: auto;
+}
+.cj-main ul{
+    overflow: hidden;
+}
+.cj-main ul li{
+    float: left;
+    width: 170px;
+    height: 230px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 18px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.cj-main ul li>img{
+    display: block;
+    width: 54px;
+    height: 50px;
+    margin: 20px auto 20px auto;
+}
+.cj-main ul li>p{
+    margin-top: 40px;
+    color: #666666;
+    font-size: 16px;
+}
+.cj-header{
+    width: 1000px;
+    margin: auto;
+}
+.el-arrow{
+    margin-left: 26px;
+    margin-top: 30px;
+}
+/* 右侧导航条 */
+.r-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 90px;
+    width: 82px;
+    height: 213px;
+    margin: auto;
+    box-shadow:0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    z-index: 1000;
+}
+.r-nav ul li{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.r-nav ul li img{
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin: 15px auto;
+}
+.r-nav ul li span{
+    display: block;
+    margin: -10px auto;
+    font-size: 14px;
+    color: #666666;
+}
+.r-nav li:nth-child(2){
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}

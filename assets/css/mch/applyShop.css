@@ -1,0 +1,226 @@
+#applyContainer{
+	min-height: 800px;
+	background-color: #F8F8F8;
+	padding: 20px 0 60px 0;
+}
+.applyContent{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 60px 345px;
+	box-sizing: border-box;
+}
+.apply_row{
+	display: flex;
+	margin-bottom: 20px;
+}
+.apply_row_left{
+	min-width: 70px;
+	text-align: right;
+	font-size: 14px;
+	line-height: 36px;
+}
+.box_f{
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #666666;
+}
+.apply_row_left .must{
+	color: #D4282D;
+}
+
+.apply_row_right{
+	flex: 1;
+	margin-left: 20px;
+}
+.apply_row_right .el-input__inner{
+	height: 36px;
+	border-radius: 0;
+}
+
+.apply_hr{
+	width:100%;
+	border-bottom:1px dashed rgba(230,230,230,1);
+	margin: 30px 0;
+}
+
+.el-textarea__inner{
+	height: 72px;
+	border-radius: 0;
+}
+
+.el-radio-group .el-radio{
+	line-height: 36px;
+}
+
+/* 上传图片 */
+.upImage{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:140px;
+	height:36px;
+	border:1px solid rgba(212,40,45,1);
+	box-sizing: border-box;
+}
+
+.upImage img{
+	width:20px;
+	height:16px;
+	margin-right: 8px;
+}
+
+.upImage{
+	position: relative;
+	font-size: 14px;
+	color: #D4282D;
+	margin-right: 14px;
+	overflow: hidden;
+}
+
+.upImage .uploader-file1{
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	padding: 140px;
+}
+.upImage .uploader-file2{
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	padding: 140px;
+}
+.upImage .uploader-file3{
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	padding: 140px;
+}
+.afterDetailsBtn{
+	display: flex;
+	justify-content: flex-end;
+	margin: 30px 20px 0;
+	padding: 20px 0;
+	border-top: 1px solid #E6E6E6;
+}
+.afterDetailsBtn>div{
+	width:130px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background:rgba(212,40,45,1);
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.upImageBox{
+	margin-right: 8px;position: relative;display: flex;
+}
+
+.upImageBox>img{
+	/* width: 40px;height: 40px; */
+	/* 解决身份证图片上传显示过小问题 */
+	max-width: 400px;
+	max-height: 250px;
+	background-color: #CCCCCC;
+}
+
+.upImageBox>a{
+	position: absolute;
+	left: 0;right: 0;bottom: 0;top: 0;
+	align-items: center;justify-content: center;
+	background-color: rgba(0,0,0,0.6);
+	color: #FFFFFF;
+	font-size: 12px;
+	display: none;
+}
+
+.upImageBox:hover a{
+	display: flex;
+}
+
+.el-button{
+	border-radius: 0;
+	padding: 0;
+	height: 36px;
+	width: 100%;
+}
+
+.agreementContent{
+	display: flex;
+	flex-direction: column;
+	width:860px;
+	height:650px;
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+
+.mask_title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px 20px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000000;
+	font-weight: bold;
+	border-bottom: 1px solid #E6E6E6;
+}
+.mask_title i{
+	font-size: 20px;
+	font-weight: bold;
+	color: #999999;
+	line-height: 16px;
+}
+
+.agreementContent_item{
+	flex: 1;
+	overflow-y: auto;
+	padding: 40px;
+}
+
+.succseMask{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:420px;
+	height:220px;
+	background:rgba(255,255,255,1);
+}
+
+.succseMask>i{
+	font-size: 45px;
+	color: #59BE3C;
+}
+.succseMask>p{
+	font-size: 16px;
+	line-height: 16px;
+	color: #020202;
+	margin-top: 12px;
+}
+
+.succseMask>span{
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	color: #999999;
+	margin-top: 10px;
+}
+
+.succseMask>div{
+	width: 112px;
+	margin-top: 23px;
+}
+.succseMask .el-button{
+	font-size: 16px;
+}
+::v-deep input::-webkit-outer-spin-button,
+::v-deep input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+::v-deep input[type="number"]{
+    -moz-appearance: textfield;
+}
